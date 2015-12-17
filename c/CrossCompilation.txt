@@ -1,0 +1,12 @@
+Cross Compilation
+=================
+
+** Check compilers target version
+> gcc -dumpmachine
+
+** Compiling
+Using gcc for Win64 host, Win64 target:
+> gcc -o myfile63.exe myfile.c
+
+Using gcc for Win64 host, Win32 target:
+> gcc -m32 -o myfile32.exe myfile.c

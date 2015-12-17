@@ -1,0 +1,26 @@
+## General things to ignore
+*.exe
+*.dll
+*.log
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+
+## Delphi specific
+*.dproj.local
+*.dcu
+*.identcache
+__history/
+
+## VS specific
+*.suo
+*.sdf
+packages/
+publish/
+
+## Java
+*.class
+
+## Misc
+*.tar.gz
