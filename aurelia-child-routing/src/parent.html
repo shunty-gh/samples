@@ -1,0 +1,19 @@
+<template>
+    <div>${title}</div>
+    <div>
+    <ul><li repeat.for="p of payrolls">${p.name}</li></ul>
+    </div>
+
+    <div>
+        <ul class="nav navbar-nav">
+            <li repeat.for="row of router.navigation" class="nav-item ${row.isActive ? 'active' : ''}">
+                <a class="nav-link" href.bind="row.href">${row.title}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div>
+        <router-view model.bind="vm"></router-view>
+    </div>
+</template>

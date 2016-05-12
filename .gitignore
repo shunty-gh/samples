@@ -24,3 +24,7 @@ publish/
 
 ## Misc
 *.tar.gz
+
+## Aurelia
+node_modules/
+jspm_packages/
