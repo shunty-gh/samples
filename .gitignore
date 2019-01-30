@@ -6,6 +6,7 @@
 [Dd]ebug/
 [Rr]elease/
 [Oo]bj/
+.vscode
 
 ## Delphi specific
 *.dproj.local
@@ -28,3 +29,8 @@ publish/
 ## Aurelia
 node_modules/
 jspm_packages/
+
+## Python VS Code dirs
+.benchmarks
+.pytest_cache
+__pycache__
